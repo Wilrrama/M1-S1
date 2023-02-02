@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario, Inputs, Radio, Textarea </title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label>Texto: </label>
+            <input type="text" id="crtl-number">
+        </div>
+
+        <div>
+            <label for="crtl-number">Numero:</label>
+            <input type="number" id="crtl-number">
+        </div>
+        <div>
+            <label for="crtl-month">Mes:</label>
+            <input type="month" id="crtl-month">
+        </div>
+        <div>
+            <label for="crtl-time">Horário:</label>
+            <input type="time" id="crtl-time">
+        </div>
+        <div>
+            <label for="crtl-range">Visão:</label>
+            <input type="range" id="crtl-range">
+        </div>
+        <div>
+            <label for="crtl-color">Cor:</label>
+            <input type="color" id="crtl-color">
+        </div>
+        <div>
+            <label for="crtl-date">Date:</label>
+            <input type="date" id="crtl-date">
+        </div>
+
+        <div>
+            <label for="ctrl-senha" name="senha">Senha:</label>
+            <input type="password" id="ctrl-senha" name="senha" placeholder="Digite sua senha aqui...">
+        </div>
+
+        <div>
+            <label for="ctrl-senhaConfirmar">Confirmar Senha:</label>
+            <input type="password" id="ctrl-senhaConfirmar" name="senhaConfirmar"
+                placeholder="Digite sua senha aqui...">
+        </div>
+
+        <div>
+            <label for="ctrl-enviarNome">Nome:</label>
+            <input id="ctrl-enviarNome" type="text" placeholder="Digite seu nome aqui..." required>
+            <input id="ctrl-enviarNome" type="submit" value="Enviar Nome">
+        </div>
+
+        <div>
+            <p>Qual a preferencia para a forma de contato?</p>
+
+            <input id="email" type="radio" required name="MetodoContato" value="e-mail">
+            <label for="email">Email</label>
+
+            <input id="whatsapp" type="radio" required name="MetodoContato" value="whatsapp">
+            <label for="whatsapp">Whatsapp</label>
+
+            <input id="linkedin" type="radio" required name="MetodoContato" value="linkedin">
+            <label for="linkedin">Linkedin</label>
+
+            <button type="submit"> Enviar Forma de Contato</button>
+        </div>
+
+        <div>
+            <label for="ctrl-plano">Plano:</label>
+            <select name="plano" id="ctrl-plano" required="true">
+                <option value="">Escolher Plano</option>
+                <option value="free">Free</option>
+                <option value="premium">Premium</option>
+                <option value="pro">Pro</option>
+            </select>
+            <button type="submit"> Escolher Plano </button>
+        </div>
+
+        <div>
+            <div>
+                <label for="ctrl-mensagem">Mensagem:</label>
+            </div>
+            <textarea id="ctrl-mensagem" name="mensagem" placeholder="Digite sua mensagem aqui..." required="true"
+                cols="30" rows="10"></textarea>
+            <button type="submit"> Enviar Texto </button>
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>
