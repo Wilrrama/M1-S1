@@ -19,69 +19,72 @@
 
     <section>
         <form>
-            <div>
+            <fieldset>
+                <legend>Developer</legend>
                 <div>
-                    <label for="ctrl-name">Nome</label>
-                </div>
-                <input id="ctrl-name" type="text" name="nome" placeholder="Digite seu nome aqui...">
-            </div>
-
-            <div>
-                <div>
-                    <label for="ctrl-email">E-mail</label>
-                </div>
-                <input id="ctrl-email" type="text" name="email" placeholder="Digite seu email aqui...">
-            </div>
-
-            <div>
-                <div>
-                    <label for="ctrl-description">Descrição</label>
-                </div>
-                <textarea name="description" id="ctrl-description" cols="30" rows="10">Fale mais sobre você.</textarea>
-            </div>
-
-            <div>
-                <div>
-                    <label for="ctrl-modulo">Módulo</label>
-                </div>
-                <select name="modulo" id="ctrl-modulo">
-                    <option value=""> Selecione o Modulo</option>
-                    <option value="Modulo1"> Modulo 1</option>
-                    <option value="Modulo2"> Modulo 2</option>
-                    <option value="Modulo3"> Modulo 3</option>
-                    <option value="Modulo4"> Modulo 4</option>
-                    <option value="Modulo5"> Modulo 5</option>
-                    <option value="Modulo6"> Modulo 6</option>
-                </select>
-            </div>
-
-            <div>
-                <div>
-                    <label for="ctrl-password">Senha:</label>
-                </div>
-                <input id="ctrl-password" type="password" name="password" placeholder="Digite sua senha aqui" required>
-
-                <div>
-                    <label for="ctrl-confirmarPassword">Confirmar senha:</label>
-                </div>
-                <input id="ctrl-confirmarPassword" type="password" name="confirmarpasswordword"
-                    placeholder="Digite novamente sua senha aqui" required>
-            </div>
-
-            <div id="ctrl-email">
-                <div>
-                    <label for="ctrl-email">Deseja receber novidades no seu email?</label>
+                    <div>
+                        <label for="ctrl-name">Nome</label>
+                    </div>
+                    <input id="ctrl-name" type="text" name="nome" placeholder="Digite seu nome aqui...">
                 </div>
 
-                <input id="crtl-modulo1" type="radio" name="receberEmail" value="sim">
-                <label for="crtl-modulo1">Sim</label>
+                <div>
+                    <div>
+                        <label for="ctrl-email">E-mail</label>
+                    </div>
+                    <input id="ctrl-email" type="text" name="email" placeholder="Digite seu email aqui...">
+                </div>
 
-                <input id="crtl-modulo2" type="radio" name="receberEmail" value="nao">
-                <label for="crtl-modulo2">Não</label>
-            </div>
+                <div>
+                    <div>
+                        <label for="ctrl-description">Descrição</label>
+                    </div>
+                    <textarea name="description" id="ctrl-description" cols="30"
+                        rows="10">Fale mais sobre você.</textarea>
+                </div>
 
+                <div>
+                    <div>
+                        <label for="ctrl-modulo">Módulo</label>
+                    </div>
+                    <select name="modulo" id="ctrl-modulo">
+                        <option value=""> Selecione o Modulo</option>
+                        <option value="Modulo1"> Modulo 1</option>
+                        <option value="Modulo2"> Modulo 2</option>
+                        <option value="Modulo3"> Modulo 3</option>
+                        <option value="Modulo4"> Modulo 4</option>
+                        <option value="Modulo5"> Modulo 5</option>
+                        <option value="Modulo6"> Modulo 6</option>
+                    </select>
+                </div>
+
+                <div>
+                    <div>
+                        <label for="ctrl-password">Senha:</label>
+                    </div>
+                    <input id="ctrl-password" type="password" name="password" placeholder="Digite sua senha aqui"
+                        required>
+
+                    <div>
+                        <label for="ctrl-confirmarPassword">Confirmar senha:</label>
+                    </div>
+                    <input id="ctrl-confirmarPassword" type="password" name="confirmarpasswordword"
+                        placeholder="Digite novamente sua senha aqui" required>
+                </div>
+
+                <div id="ctrl-email">
+                    <div>
+                        <label for="ctrl-email">Deseja receber novidades no seu email?</label>
+                    </div>
+
+                    <input id="crtl-modulo1" type="radio" name="receberEmail" value="sim">
+                    <label for="crtl-modulo1">Sim</label>
+
+                    <input id="crtl-modulo2" type="radio" name="receberEmail" value="nao">
+                    <label for="crtl-modulo2">Não</label>
+                </div>
+            </fieldset>
             <button type="submit">Enviar Cadastro</button>
-
 
         </form>
     </section>

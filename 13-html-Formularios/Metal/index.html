@@ -17,72 +17,77 @@
     <main>
         <section>
             <h2>Cadastro</h2>
+
             <form action="obrigado.html">
-                <div>
-                    <label for="ctrl-name">Nome</label>
-                    <input id="ctrl-name" name="name" type="tex" placeholder="Digite seu nome">
-                </div>
+                <fieldset>
+                    <legend>Gamer</legend>
+                    <div>
+                        <label for="ctrl-name">Nome</label>
+                        <input id="ctrl-name" name="name" type="tex" placeholder="Digite seu nome">
+                    </div>
 
-                <div>
-                    <label for="ctrl-email">E-mail</label>
-                    <input id="ctrl-email" name="email" type="email" placeholder="Digite seu e-mail">
-                </div>
+                    <div>
+                        <label for="ctrl-email">E-mail</label>
+                        <input id="ctrl-email" name="email" type="email" placeholder="Digite seu e-mail">
+                    </div>
 
-                <div>
-                    <label for="ctrl-password">Senha</label>
-                    <input id="ctrl-password" name="password" type="password" placeholder="Digite a senha">
-                </div>
+                    <div>
+                        <label for="ctrl-password">Senha</label>
+                        <input id="ctrl-password" name="password" type="password" placeholder="Digite a senha">
+                    </div>
 
-                <div>
-                    <label for="ctrl-device">Video Game Preferido: </label>
-                    <select name="device" id="ctrl-device">
-                        <option> Playstation 2 </option>
-                        <option> X-Box 360 </option>
-                        <option> Playstation 3 </option>
-                        <option> X-Box One </option>
-                        <option> Playstation 4 </option>
-                        <option> X-Box Series X </option>
-                        <option> Playstation 5 </option>
-                    </select>
-                </div>
+                    <div>
+                        <label for="ctrl-device">Video Game Preferido: </label>
+                        <select name="device" id="ctrl-device">
+                            <option hidden> Plataforma </option>
+                            <option> Playstation 2 </option>
+                            <option> X-Box 360 </option>
+                            <option> Playstation 3 </option>
+                            <option> X-Box One </option>
+                            <option> Playstation 4 </option>
+                            <option> X-Box Series X </option>
+                            <option> Playstation 5 </option>
+                        </select>
+                    </div>
 
-                <div>
-                    <label for="ctrl-age">Idade: </label>
+                    <div>
+                        <label for="ctrl-age">Idade: </label>
 
-                    <input type="radio" name="age" id="ctrl-age-1">
-                    <label> 15 - 25 </label>
+                        <input type="radio" name="age" id="ctrl-age-1">
+                        <label> 15 - 25 </label>
 
-                    <input type="radio" name="age" id="ctrl-age-2">
-                    <label> 26 - 35 </label>
+                        <input type="radio" name="age" id="ctrl-age-2">
+                        <label> 26 - 35 </label>
 
-                    <input type="radio" name="age" id="ctrl-age-3">
-                    <label> 36 - 60 </label>
+                        <input type="radio" name="age" id="ctrl-age-3">
+                        <label> 36 - 60 </label>
 
 
-                </div>
-                <label for="ctrl-genre"> Qual ou quais Gêneros você mais gosta? </label>
-                <div id="ctrl-genre">
+                    </div>
+                    <label for="ctrl-genre"> Qual ou quais Gêneros você mais gosta? </label>
+                    <div id="ctrl-genre">
 
-                    <input id="crtl-race" name="race" type="checkbox">
-                    <label for="crtl-race">Corrida</label>
+                        <input id="crtl-race" name="race" type="checkbox">
+                        <label for="crtl-race">Corrida</label>
 
-                    <input id="crtl-sports" name="sports" type="checkbox">
-                    <label for="crtl-sports">Esporte</label>
+                        <input id="crtl-sports" name="sports" type="checkbox">
+                        <label for="crtl-sports">Esporte</label>
 
-                    <input id="crtl-fight" name="fight" type="checkbox">
-                    <label for="crtl-fight">Luta</label>
+                        <input id="crtl-fight" name="fight" type="checkbox">
+                        <label for="crtl-fight">Luta</label>
 
-                    <input id="crtl-rpg" name="rpg" type="checkbox">
-                    <label for="crtl-rpg">RPG</label>
+                        <input id="crtl-rpg" name="rpg" type="checkbox">
+                        <label for="crtl-rpg">RPG</label>
 
-                    <input id="crtl-adventure" name="adventure" type="checkbox">
-                    <label for="crtl-adventure">Aventura</label>
+                        <input id="crtl-adventure" name="adventure" type="checkbox">
+                        <label for="crtl-adventure">Aventura</label>
 
-                    <input id="crtl-action" name="action" type="checkbox">
-                    <label for="crtl-action">Ação</label>
-                </div>
-                <div>
-                </div>
+                        <input id="crtl-action" name="action" type="checkbox">
+                        <label for="crtl-action">Ação</label>
+                    </div>
+                    <div>
+                    </div>
+                </fieldset>
                 <input type="submit" value="Enviar">
                 <input type="reset" value="Apagar os dados">
             </form>
